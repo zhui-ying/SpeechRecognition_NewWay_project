@@ -1,0 +1,458 @@
+MODE=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'隶书'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN ENTERACTION
+SETTIMER,TIMERID=1,TIME=30000,MODE=0,LIB=到时跳转,FUNCTION=到时跳转激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+BEGIN LEAVEACTION
+END
+BEGIN UNRECACTION
+END
+BEGIN TOGETHERWORD
+NAME=再见
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">说再见，回到未激活状态</p></body></html>
+BEGIN WORD
+RECWORD_PY=zai jian 
+RECWORD_HY=再见
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=zai xian 
+RECWORD_HY=在线
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+PLAYMP3DATA,MP3NAME=再见.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+SETTIMER,TIMERID=1,TIME=30000,MODE=0,LIB=到时跳转,FUNCTION=到时跳转激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+JUMPSTATUS,STATUS=激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=你好
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=ni hao 
+RECWORD_HY=你好
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=yi hao 
+RECWORD_HY=已好
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni hao a 
+RECWORD_HY=你好啊
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni ao 
+RECWORD_HY=你熬
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=hao 
+RECWORD_HY=好
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+SETTIMER,TIMERID=1,TIME=30000,MODE=0,LIB=到时跳转,FUNCTION=到时跳转激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+PLAYMP3DATA,MP3NAME=你好，你是想唱歌还是想玩游戏.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=唱歌
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">识别到唱歌后动作</p></body></html>
+BEGIN WORD
+RECWORD_PY=ting ge 
+RECWORD_HY=听歌
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ting ge ba 
+RECWORD_HY=听歌吧
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=chang ge 
+RECWORD_HY=唱歌
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=tang ke 
+RECWORD_HY=糖可
+MODE=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+STOPTIMER,TIMERID=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+PLAYMP3DATA,MP3NAME=那我唱首歌给你听吧.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+DELAY,TIME=500,UNIT=ms
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+RANDPLAY,MP3DIR=0,MP3UNBLOCK=0
+BEGIN
+MP3FILE=我有一只小毛驴 - 小毛驴 7.mp3
+MP3FILE=刘晨 - 熊出没主题曲.mp3
+MP3FILE=童谣精选 - 拔萝卜 - 儿歌1.mp3
+MP3FILE=喜羊羊与灰太狼主题曲 - 喜洋洋8.mp3
+MP3FILE=杨茜雯 - 海绵宝宝主题曲.mp3
+END
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+DELAY,TIME=500,UNIT=ms
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+PLAYMP3DATA,MP3NAME=请问你还想我陪你玩什么.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+SETTIMER,TIMERID=1,TIME=30000,MODE=0,LIB=到时跳转,FUNCTION=到时跳转激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+STOPTIMER,TIMERID=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=你是谁
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">识别到你是谁动作</p></body></html>
+BEGIN WORD
+RECWORD_PY=ni shi shui 
+RECWORD_HY=你是谁
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni jiao shi me 
+RECWORD_HY=你叫什么
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni si shui 
+RECWORD_HY=你似谁
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+SETTIMER,TIMERID=1,TIME=30000,MODE=0,LIB=到时跳转,FUNCTION=到时跳转激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+PLAYMP3DATA,MP3NAME=我是你的小伙伴爱丽丝.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=玩游戏
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=wan you xi 
+RECWORD_HY=玩游戏
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=you xi 
+RECWORD_HY=游戏
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=da ti you xi 
+RECWORD_HY=答题游戏
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=wan da ti you xi 
+RECWORD_HY=玩答题游戏
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+SETVARVALUE,VARNAME=答题计数,VALUE=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">答题计数清零</p></body></html>
+STOPTIMER,TIMERID=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+PLAYMP3DATA,MP3NAME=答题开始.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+JUMPSTATUS,STATUS=问题1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">跳转到问题1</p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=垃圾词聚合
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=wo bu hao 
+RECWORD_HY=我不好
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni bu hao 
+RECWORD_HY=你不好
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=di gao 
+RECWORD_HY=第搞
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=chang shi me 
+RECWORD_HY=唱什么
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ding ge 
+RECWORD_HY=定个
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=chan ke 
+RECWORD_HY=馋可
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=tai jian 
+RECWORD_HY=太监
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=hao ben a 
+RECWORD_HY=好笨啊
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=huan ying 
+RECWORD_HY=欢迎
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni si sui ne 
+RECWORD_HY=你四岁呢
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni diao sen me 
+RECWORD_HY=你掉森么
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=wan dou xi 
+RECWORD_HY=万豆喜
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=da di tou xi 
+RECWORD_HY=大地偷袭
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=wo bu zhi dao a 
+RECWORD_HY=我不知道啊
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=bu zhi dao 
+RECWORD_HY=不知道
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=bu hao wan 
+RECWORD_HY=不好玩
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=he he 
+RECWORD_HY=呵呵
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=huo huo 
+RECWORD_HY=霍霍
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ha ha ha 
+RECWORD_HY=哈哈哈
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=tiao wu 
+RECWORD_HY=跳舞
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+END
+END
+BEGIN TOGETHERWORD
+NAME=垃圾词聚合
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=qing lu zhuang ban ge zhong 
+RECWORD_HY=情侣装半个钟
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=li yong tian se tian qi 
+RECWORD_HY=利用天色天气
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=neng bu neng bu he ge 
+RECWORD_HY=能不能不合格
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=a si dun fei da sai 
+RECWORD_HY=阿斯顿飞大赛
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=nue mao nu jiao hou gen 
+RECWORD_HY=虐猫女脚后跟
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=la la la la la la 
+RECWORD_HY=啦啦啦啦啦啦
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ping ping ping ping ping ping 
+RECWORD_HY=平平平平平平
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=mo ni juan he he ni 
+RECWORD_HY=模拟卷呵呵你
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=nan jing hang kong hang tian 
+RECWORD_HY=南京航空航天
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ha ha ha ha ha 
+RECWORD_HY=哈哈哈哈哈
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+END
+END
+BEGIN TOGETHERWORD
+NAME=你会什么
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=ni hui shi me 
+RECWORD_HY=你会什么
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni hui gan shi me 
+RECWORD_HY=你会干什么
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+SETTIMER,TIMERID=1,TIME=30000,MODE=0,LIB=到时跳转,FUNCTION=到时跳转激活
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+PLAYMP3DATA,MP3NAME=我会唱歌还能和你玩游戏.mp3,MP3DIR=0,MP3UNBLOCK=0
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+ENDSTATUS

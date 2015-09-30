@@ -1,0 +1,313 @@
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'隶书'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN ENTERACTION
+END
+BEGIN LEAVEACTION
+END
+BEGIN UNRECACTION
+END
+BEGIN TOGETHERWORD
+NAME=开灯
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=kai deng 
+RECWORD_HY=开灯
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=quan kai 
+RECWORD_HY=全开
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=du da kai 
+RECWORD_HY=都打开
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+CALLFUNCTION,LIB=light控制,FUNCTION=全开
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=关灯
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=guan deng 
+RECWORD_HY=关灯
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=du guan liao 
+RECWORD_HY=都关了
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=quan guan 
+RECWORD_HY=全关
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+CALLFUNCTION,LIB=light控制,FUNCTION=全关
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=一号灯
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=yi hao 
+RECWORD_HY=一号
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=yi hao kai 
+RECWORD_HY=一号开
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=yi hao deng kai 
+RECWORD_HY=一号灯开
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+CALLFUNCTION,LIB=light控制,FUNCTION=1号灯开
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=二号灯
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORD
+RECWORD_PY=er hao 
+RECWORD_HY=二号
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=er hao deng 
+RECWORD_HY=二号灯
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=er hao deng kai 
+RECWORD_HY=二号灯开
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=e hao 
+RECWORD_HY=二号
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ri hao 
+RECWORD_HY=日号
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+CALLFUNCTION,LIB=light控制,FUNCTION=2号灯开
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+END
+END
+BEGIN TOGETHERWORD
+NAME=垃圾词聚合
+NOTE=
+BEGIN WORD
+RECWORD_PY=wo bu hao 
+RECWORD_HY=我不好
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni bu hao 
+RECWORD_HY=你不好
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=di gao 
+RECWORD_HY=第搞
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=chang shi me 
+RECWORD_HY=唱什么
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ding ge 
+RECWORD_HY=定个
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=chan ke 
+RECWORD_HY=馋可
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=dai jian 
+RECWORD_HY=带见
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=tai jian 
+RECWORD_HY=太监
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=hao ben a 
+RECWORD_HY=好笨啊
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=huan ying 
+RECWORD_HY=欢迎
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni si sui ne 
+RECWORD_HY=你四岁呢
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni diao sen me 
+RECWORD_HY=你掉森么
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=wan dou xi 
+RECWORD_HY=万豆喜
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=da di tou xi 
+RECWORD_HY=大地偷袭
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=bu zhi dao 
+RECWORD_HY=不知道
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=bu hao wan 
+RECWORD_HY=不好玩
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=chang ge 
+RECWORD_HY=唱歌
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=ni shi shui 
+RECWORD_HY=你是谁
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=wei wei 
+RECWORD_HY=喂喂
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=zen me la 
+RECWORD_HY=怎么啦
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=si si 
+RECWORD_HY=丝丝
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=shi a 
+RECWORD_HY=是啊
+MODE=0
+NOTE=
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=san hao 
+RECWORD_HY=三号
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN WORD
+RECWORD_PY=si hao 
+RECWORD_HY=四号
+MODE=1
+NOTE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;"><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
+BEGIN WORDACTION
+END
+BEGIN TOWORDACTION
+END
+END
+ENDSTATUS
